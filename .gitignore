@@ -1,0 +1,67 @@
+# 环境变量文件 - 包含 API 密钥等敏感信息
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# LangChain 相关
+.langchain/
+langchain.db
+
+# 向量数据库文件
+*.faiss
+faiss_index/
+chroma_db/
