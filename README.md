@@ -10,8 +10,7 @@
 ├── 📄 Sample2.py          # Prompt Templates 和 Output Parsers 示範
 ├── 📄 Sample3.py          # Embedding Models 和 Vector Stores 示範
 ├── 📄 Sample4.py          # Agents 和 Tools 示範
-├── 📄 Sample5.py          # RAG 系統示範 (簡化版)
-├── 📄 Sample6.py          # RAG 系統示範 (完整版)
+├── 📄 Sample5.py          # RAG 系統示範
 ├── 📄 Sales_AI_Agent.pdf  # RAG 示範用的測試文檔
 ├── 📄 requirements.txt    # Python 套件相依性列表
 ├── 📄 .env.example        # 環境變數設定範例
@@ -64,13 +63,12 @@ GOOGLE_API_KEY=<您的 Google API 金鑰>
 python Sample1.py
 
 # 執行 RAG 系統示範
-python Sample6.py
+python Sample5.py
 
 # 執行其他功能示範
 python Sample2.py  # 提示工程
 python Sample3.py  # 向量處理
 python Sample4.py  # 智能代理
-python Sample5.py  # RAG 簡化版
 ```
 
 ## 📚 檔案說明
@@ -83,8 +81,7 @@ python Sample5.py  # RAG 簡化版
 | `Sample2.py` | 提示工程和輸出解析 | PromptTemplate、OutputParser 使用 |
 | `Sample3.py` | 向量嵌入和向量資料庫 | Embeddings、FAISS 向量搜尋 |
 | `Sample4.py` | 智能代理和工具整合 | Agents、Tools 的組合使用 |
-| `Sample5.py` | RAG 系統 (簡化版) | PDF 文檔載入、向量化、問答 |
-| `Sample6.py` | RAG 系統 (完整版) | 完整的 RAG 流程和錯誤處理 |
+| `Sample5.py` | RAG 系統 | PDF 文檔載入、向量化、問答 |
 
 ### 配置檔案
 
