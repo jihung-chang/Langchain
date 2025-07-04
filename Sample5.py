@@ -52,7 +52,13 @@ def create_rag_chain(pdf_path):
             # 1. 使用 PDF document loader 載入 PDF 文件
             loader = PyPDFLoader(pdf_path)
             documents = loader.load()
-            
+
+            # 1.1 如果需要載入網頁，可以使用 UnstructuredURLLoader
+            # from langchain_community.document_loaders import UnstructuredURLLoader
+            # urls = ["https://example.com/webpage1", "https://example.com/webpage2"]
+            # loader = UnstructuredURLLoader(urls=urls)
+            # docs = loader.load()
+
         finally:
             # 恢復原始输出
             sys.stdout = original_stdout

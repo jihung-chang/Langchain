@@ -49,7 +49,7 @@ try:
     print(f"Gemini 模型生成的詩: {gemini_result.content}")
     
 except Exception as e:
-    print(f"\n2. Gemini LLM 示範遇到錯誤: {str(e)}")
+    print(f"\nGemini LLM 示範遇到錯誤: {str(e)}")
 
 
 #########################################################################

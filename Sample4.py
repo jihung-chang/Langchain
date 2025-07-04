@@ -138,5 +138,3 @@ try:
         print(f"{message.type}: {message.content}")
 except Exception as e:
     print(f"對話歷史示範遇到錯誤: {str(e)}")
-print("問: 你還記得我叫什麼名字嗎？")
-print(f"答: {response2}")

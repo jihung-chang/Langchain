@@ -12,10 +12,12 @@ pypdf
 langchain-google-genai
 
 # 其他相依套件
-python-dotenv
+python-dotenv>=0.21.0
 faiss-cpu
 numexpr
 
-# 可選的額外套件
-# jupyter  # 如果需要在 Jupyter Notebook 中使用
-# streamlit  # 如果需要建立 Web 介面
+# 如果需要在 Jupyter Notebook 中使用
+# jupyter  
+
+# 如果需要建立 Web 介面
+# streamlit  
