@@ -16,6 +16,9 @@ python-dotenv>=0.21.0
 faiss-cpu
 numexpr
 
+# 安裝 LangGraph 套件
+pip install langgraph>0.2.27
+
 # 如果需要在 Jupyter Notebook 中使用
 # jupyter  
 
