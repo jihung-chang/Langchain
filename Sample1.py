@@ -71,4 +71,5 @@ messages = [
 ]
 chat_result = chat_model.invoke(messages)
 print("\n3. 示範 ChatModel 對話生成")
-print(f"專業公關的回覆: {chat_result.content} ")
+print(f"專業公關的回覆: {chat_result.content}")
+print(f"\nTotal token: {chat_result.response_metadata.get('token_usage').get('total_tokens')}")
